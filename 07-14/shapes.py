@@ -76,6 +76,9 @@ class Triangle:
 class Polygon:
     """
     Defines a polygon of arbitrary size in an Euclidean plane.
+
+    Note that the points attribute is not a single point, but a list of points that describe the polygon's vertices.
+    The sides attribute describes the number of sides of the polygon, which coincides with the length of the points list.
     """
     def __init__(self, sides, points):
         self.sides = sides
