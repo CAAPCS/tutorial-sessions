@@ -15,8 +15,8 @@ def distance(a, b):
     y_coor = a.y - b.y
     x_squared = x_coor ** 2
     y_squared = y_coor ** 2
-    return math.sqrt(x_squared + y_squared)
-    # return math.sqrt(((a.x - b.x)**2) + ((a.y - b.y)**2))
+    return math.sqrt(((a.x - b.x)**2) + ((a.y - b.y)**2))
+    # return math.sqrt(x_squared + y_squared)
 
 
 class Point:
