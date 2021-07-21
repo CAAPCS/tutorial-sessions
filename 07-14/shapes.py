@@ -97,4 +97,4 @@ class Polygon:
 
 
 if __name__ == "main":
-    # do something
+    print("Welcome to the shapes program!")
