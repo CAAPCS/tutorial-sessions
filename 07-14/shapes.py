@@ -82,5 +82,10 @@ class Polygon:
         return per
 
 
+def func():
+    return None
+
+
 if __name__ == "main":
     print("Welcome to the shapes program!")
+
