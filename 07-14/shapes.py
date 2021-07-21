@@ -94,3 +94,7 @@ class Polygon:
                 # distance(self.points[0], self.points[index])
 
         return per
+
+
+if __name__ == "main":
+    # do something
