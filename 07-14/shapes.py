@@ -94,3 +94,6 @@ class Polygon:
                 # distance(self.points[0], self.points[index])
 
         return per
+
+def func():
+    return None
