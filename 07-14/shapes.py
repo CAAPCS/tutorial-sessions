@@ -59,20 +59,6 @@ class Quadrilateral:
         return self.width * self.height
 
 
-class Triangle:
-    """
-    Defines a triangle in an Euclidean plane
-
-    Note that this class is flawed. We know only its size, but not its location.
-    """
-    def __init__(self, height, base):
-        self.height = height
-        self.base = base
-
-    def area(self):
-        return (self.base * self.height) / 2.0
-
-
 class Polygon:
     """
     Defines a polygon of arbitrary size in an Euclidean plane.
@@ -97,4 +83,4 @@ class Polygon:
 
 
 if __name__ == "main":
-    # do something
+    print("Welcome to the shapes program!")
